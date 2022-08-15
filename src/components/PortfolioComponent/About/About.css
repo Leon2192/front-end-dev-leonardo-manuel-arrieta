@@ -1,0 +1,10 @@
+.about-container {
+  color: aqua;
+  font-weight: bold;
+}
+.about-parent p {
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  margin: 22px;
+}
