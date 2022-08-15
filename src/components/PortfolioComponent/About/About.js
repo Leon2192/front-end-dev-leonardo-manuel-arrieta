@@ -11,10 +11,10 @@ const About = () => {
           persona entusiasta, organizada, muy detallista y con facilidad para
           relacionarme con las personas. Me apasiona programar y mi objetivo es
           desarrollarme profesionalmente para poder dedicarme a ello. Hace 4
-          años me capacito para ser front-end developer realizando
-          cursos en plataformas como Coderhouse, UTN E-learning, Educación IT,
-          entre otros. Hoy me desenvuelvo como Tutor del framework React Js en
-          un coding bootcamp (Coderhouse). Las tecnologías que habitualmente uso
+          años me capacito para ser front-end developer realizando cursos en
+          plataformas como Coderhouse, UTN E-learning, Educación IT, entre
+          otros. Hoy me desenvuelvo como Tutor del framework React Js en un
+          coding bootcamp (Coderhouse). Las tecnologías que habitualmente uso
           son HTML, CSS, Javascript, React Js, React Native, Expo, Next Js,
           Angular Js y Node Js. Actualmente busco poner en práctica todos mis
           conocimientos en un entorno profesional y desafiante para poder

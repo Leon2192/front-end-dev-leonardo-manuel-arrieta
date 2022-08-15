@@ -258,7 +258,7 @@ export default function Projects() {
                   </a>
                 </Button>
                 <Button size="small" color="primary">
-                  <a href="https://mercado-libre-clone-product-section.vercel.app/">
+                  <a href="https://mercado-libre-clon-styled-components.netlify.app/">
                     <RocketLaunchIcon />
                   </a>
                 </Button>
