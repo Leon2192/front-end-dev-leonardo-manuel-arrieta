@@ -14,22 +14,50 @@ import recreo from "../../Assets/recreologo.png";
 import netflix from "../../Assets/netflixlogo.png";
 import poke from "../../Assets/poke.png";
 import sunny from "../../Assets/sunny.png";
-import marado from "../../Assets/Marado.png";
 import ml from "../../Assets/mercado.png";
-import elearning from "../../Assets/elearning.png";
+import ron from "../../Assets/ron.png";
 import "./Projects.css";
 
 export default function Projects() {
   return (
     <div id="proyectos" className="projects-container">
       <h2>Proyectos</h2>
-      <Box sx={{ width: "100%" }}>
-        <Grid
-          container
-          rowSpacing={2}
-          columnSpacing={{ xs: 1, sm: 2, md: 3, lg: 6 }}
-        >
-          <Grid item xs={12} sm={6} md={4} lg={4}>
+      <Box sx={{ flexGrow: 1 }}>
+        <Grid container spacing={2}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
+            <Card sx={{ maxWidth: 345 }}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="200"
+                  image={ron}
+                  alt="green iguana"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    RON Inmobiliaria
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    Proyecto real. Cliente "Ron Inmobiliaria", está desarrollado
+                    con las tecnologías React Js, Node Js y Chakra UI.
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                <Button size="small" color="primary">
+                  <a href="https://github.com/Leon2192/ron-inmobiliaria">
+                    <CodeIcon />
+                  </a>
+                </Button>
+                <Button size="small" color="primary">
+                  <a href="https://ron-inmobiliaria.vercel.app/">
+                    <RocketLaunchIcon />
+                  </a>
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Card sx={{ maxWidth: 345 }}>
               <CardActionArea>
                 <CardMedia
@@ -65,7 +93,7 @@ export default function Projects() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={4}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Card sx={{ maxWidth: 345 }}>
               <CardActionArea>
                 <CardMedia
@@ -99,7 +127,7 @@ export default function Projects() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={4}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Card sx={{ maxWidth: 345 }}>
               <CardActionArea>
                 <CardMedia
@@ -133,7 +161,7 @@ export default function Projects() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={4}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Card sx={{ maxWidth: 345 }}>
               <CardActionArea>
                 <CardMedia
@@ -166,7 +194,7 @@ export default function Projects() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={4}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Card sx={{ maxWidth: 345 }}>
               <CardActionArea>
                 <CardMedia
@@ -199,7 +227,7 @@ export default function Projects() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={4}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Card sx={{ maxWidth: 345 }}>
               <CardActionArea>
                 <CardMedia
@@ -232,7 +260,7 @@ export default function Projects() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={4}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Card sx={{ maxWidth: 345 }}>
               <CardActionArea>
                 <CardMedia
@@ -259,72 +287,6 @@ export default function Projects() {
                 </Button>
                 <Button size="small" color="primary">
                   <a href="https://mercado-libre-clon-styled-components.netlify.app/">
-                    <RocketLaunchIcon />
-                  </a>
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={4}>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardActionArea>
-                <CardMedia
-                  component="img"
-                  height="200"
-                  image={marado}
-                  alt="green iguana"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
-                    La tienda del 10
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    Interfaz de tienda online desarrollada con HTML, CSS,
-                    Javascript, React Js y Redux.
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions>
-                <Button size="small" color="primary">
-                  <a href="https://github.com/Leon2192/ecommerce-react">
-                    <CodeIcon />
-                  </a>
-                </Button>
-                <Button size="small" color="primary">
-                  <a href="https://ecommerce-react-flame.vercel.app/">
-                    <RocketLaunchIcon />
-                  </a>
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={4}>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardActionArea>
-                <CardMedia
-                  component="img"
-                  height="200"
-                  image={elearning}
-                  alt="green iguana"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
-                    A-Learning
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    Proyecto desarrollado con Html, Css, Javascript y Angular.
-                    Se trata de una plataforma de e-learning.
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions>
-                <Button size="small" color="primary">
-                  <a href="https://github.com/Leon2192/E-Learning-Platform-Angular">
-                    <CodeIcon />
-                  </a>
-                </Button>
-                <Button size="small" color="primary">
-                  <a href="https://e-learning-platform-angular.vercel.app/login">
                     <RocketLaunchIcon />
                   </a>
                 </Button>
